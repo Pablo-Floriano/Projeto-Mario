@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgrounde_home{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    top: -40%;
+
+}
+
+.batata{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+}
+
+.batata:hover{
+    color: #c51111;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.butaoformulario{
+    color: white;
+    background-color: #c51111;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.butaoformulario:hover{
+    color: #c51111;
+    background-color: white;
+    height: 60px;
+    width: 210px;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-bros{
+    height: 200px;
+}
+.logo-mario{
+    height: 500px;
+}
+
+.body1{
+    height: 100vh;
+}
+
+.caixa-principal{
+    width: 38%;
+}
+
+.caixa-mae{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.caixa-video{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+.video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.zapzap{
+    position: fixed;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.texto{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 30px;
+
+}
+
+.cabecalho img{
+    height: 60px;
+}
+.cabecalho a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    color: #c51111;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario{
+    position: fixed;
+    display: flex;
+    top: 30%;
+    left: -300px;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: left 1s ease-in-out;
+}
+
+input{
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 270px;
+    outline-color: #18D80F;
+}
+
+textarea{
+    height: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 270px;
+    outline-color: #18D80F;
+}
+
+.botao-orcamento{
+    background-color: #18D80F;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.botao-orcamento:hover{
+    width: 210px;
+    height: 60px;
+    transition: 0.5s ease-in-out;
+}
+
+.mascara-formulario{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+/* 
+    left: -300px;
+
+    left: 50%;
+    transform: translateX(-50%);
+*/
+
+@media(max-width: 1200px){
+    p{
+        display: none;
+    }
+    .caixa-mae{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo-mario{
+        width: 80vw;
+        height: auto;
+    }
+    .caixa-principal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabecalho img{
+        display: none;
+    }
+    .cabecalho a{
+        font-size: 18px;
+    }
+    .cabecalho{
+        margin: 20px;
+        justify-content: center;
+        
+    }
+}
