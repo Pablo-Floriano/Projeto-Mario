@@ -6,9 +6,10 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo-js">
 
 <h2>Imagens do projeto:</h2>
-
-<img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/desktop.png?raw=true" width="50%">
-<img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/desktop-form.png?raw=true" width="50%" style="display: inline-block;">
+<div dispay="flex" align-items="center">
+  <img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/desktop.png?raw=true" width="50%">
+  <img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/desktop-form.png?raw=true" width="50%" align="right">
+</div>
 
 <img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/mobile.png?raw=true" height="300px">
 <img src="https://github.com/Pablo-Floriano/Projeto-Mario/blob/master/img/mobile-form.png?raw=true" height="300px">
