@@ -5,11 +5,7 @@
 }
 
 .backgrounde_home{
-    min-height: 100vh;
-    min-width: 100vw;
-    position: fixed;
-    top: -40%;
-
+    background-size: cover;
 }
 
 .batata{
